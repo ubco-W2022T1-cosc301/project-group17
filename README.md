@@ -1,31 +1,23 @@
-# Group YYY - {Short snappy Title of your project}
-
-**Please remember to update this section**
-
-- Your title can change over time.
-
-## Milestones
-
-Details for Milestone are available on Canvas (left sidebar, Course Project).
+# Group 017 - Worker Productivity
 
 ## Describe your topic/interest in about 150-200 words
 
 **Please remember to update this section**
 
-{Add your stuff here}
+Blah Blah Looking at worker productivity compared to hours worked, vacation hours, etc
 
 ## Describe your dataset in about 150-200 words
 
 **Please remember to update this section**
 
-{Add your stuff here}
+Data set on worker hours, population, producivity, etc about blah and ya know
 
 ## Team Members
 
 **Please remember to update this section**
 
 - Person 1: one sentence about you!
-- Person 2: one sentence about you!
+- Nasser Mohammed: one sentence about you!
 - Person 3: one sentence about you!
 
 ## Images
