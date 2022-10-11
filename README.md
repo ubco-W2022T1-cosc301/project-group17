@@ -16,7 +16,7 @@ Data set on worker hours, population, producivity, etc about blah and ya know
 
 **Please remember to update this section**
 
-- Person 1: one sentence about you!
+- Jason Kabatoff: I am in chemistry.
 - Nasser Mohammed: one sentence about you!
 - Person 3: one sentence about you!
 
