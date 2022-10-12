@@ -2,9 +2,7 @@
 
 ## Describe your topic/interest in about 150-200 words
 
-**Please remember to update this section**
-
-Blah Blah Looking at worker productivity compared to hours worked, vacation hours, etc
+We are going to be investigating how factors such as population, hours worked, allotted vacation time, and more contribute to said worker's productivity and output. This is looked at across several nations.
 
 ## Describe your dataset in about 150-200 words
 
@@ -17,22 +15,19 @@ Data set on worker hours, population, producivity, etc about blah and ya know
 **Please remember to update this section**
 
 - Jason Kabatoff: I am in chemistry.
-- Nasser Mohammed: one sentence about you!
+- Nasser Mohammed: I am in astrophysics.
 - Person 3: one sentence about you!
 
 ## Images
 
-**Please remember to update this section and remove the test image!**
+No images as of yet
 
-{You can use this area for any images you want to include}
-
-<img src ="images/test.png" width="100px">
 
 ## References
 
 **Please remember to update this section**
 
-{Add your credits, acknowledgements, references, or citations **including a link to the data source** here}
+“PWT 10.0.” University of Groningen, November 30, 2021. https://www.rug.nl/ggdc/productivity/pwt/?lang=en. 
 
 
 
