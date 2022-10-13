@@ -8,7 +8,7 @@ We are going to be investigating how factors such as population, hours worked, a
 
 **Please remember to update this section**
 
-The main dataset is provided by the Groningen Growth and Development Centre, from the University of Groningen. This dataset, the Penn World Table (PWT), provides data on income, productivty, wages, hours worked, GDP, relative output and more. We suppliment this data with information on vacation days, and GPD produced per hour worked.
+The main dataset is provided by the Groningen Growth and Development Centre, from the University of Groningen. This dataset, the Penn World Table (PWT), provides data on income, productivty, wages, hours worked, GDP, relative output and more. We suppliment this data with information on vacation days, and GPD produced per hour worked. The most recent update of the data set was on June 18, 2021. The Penn World Table was first published in 1988, however the "next generation" PWT was created in 2015.  The reason this dataset was created was to investigate the real GDP across different benchmarks with applications in development accounting in mind. We supplement this dataset with data from the OECD on GDP produce per hour worked, and Huberman & Minns (2007) for information on allotted vacation days for workers.
 
 ## Team Members
 
