@@ -2,7 +2,7 @@
 
 ## Describe your topic/interest in about 150-200 words
 
-We are going to be investigating how factors such as population, hours worked, allotted vacation time, and more contribute to said worker's productivity and output. This is looked at across several nations. diediediediediehelp
+We are going to be investigating how factors such as population, hours worked, and allotted vacation time contribute to the measured productivity which is the output of goods or services provided, divided by the input, which is the amount of work hours required to produce those goods. We will use the out-side real GDP, total hours worked, and population, to create this metric to quantify the productivity of a country. We are interested in the project because it allowed us to pick countries to analzye that are similar in economic structure and prosperity to Canada. This is in order to understand how the implementation of our variables could contribute to a more productive Canada. Our dataset could certainly be imported into an interactive dashboard.
 
 ## Describe your dataset in about 150-200 words
 
