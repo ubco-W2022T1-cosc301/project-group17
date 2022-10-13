@@ -16,7 +16,7 @@ The main dataset is provided by the Groningen Growth and Development Centre, fro
 
 - Jason Kabatoff: I am in chemistry.
 - Nasser Mohammed: I am in astrophysics.
-- Person 3: one sentence about you!
+- Guy Osborn: I am in management with a computer science minor.
 
 ## Images
 
