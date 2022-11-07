@@ -20,8 +20,9 @@ def clean_and_secure(pwt, vac):
     
     df['gdp per capita'] = df['rgdpe']/df['pop']
     df['productivity'] = df['gdp per capita']/df['avh']
-    df = df[['country', 'year', 'pop', 'avh', 'rgdpe', 'gdp per capita', 'vacation days', 'productivity']]
-    
+    df['gdp per vac days'] = df['rgdpe']/ df['vacation days']
+    df = df[['country', 'year', 'pop', 'avh', 'rgdpe', 'gdp per capita', 'vacation days', 'productivity', 'gdp per vac days']]
+
     return df
 
 def makeHeatMap(data):
