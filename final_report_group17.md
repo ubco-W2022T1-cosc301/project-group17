@@ -26,6 +26,7 @@ We investigated the impact of the vacation days on the productivity of a country
 
 ![](./images/bar_plot.png)
 <figcaption align="center"> Fig 2. Bar plot showing productivity versus number of vacation days. </figcaption>
+<br />
 In the second figure below, two plots are shown. Both are plots of GDP per Vacation day versus Year, however, the left plot’s hue is based on the number of vacation days while the right plot’s hue is based on the average hours worked per year. 
 
 An important thing to notice in these plots is that the maximum GDP per Vacation day correlates to a country with both high vacation days and a low average hours worked. That general property is obeyed for most of the points at high values on the Y-axis. This may indicate that countries with high vacation days and lower hours work tend to have higher value per vacation day.
