@@ -26,7 +26,7 @@ We investigated the impact of the vacation days on the productivity of a country
 
 ![](./images/bar_plot.png)
 <figcaption align="center"> Fig 2. Bar plot showing productivity versus number of vacation days. </figcaption>
-<br />
+<br/>
 In the second figure below, two plots are shown. Both are plots of GDP per Vacation day versus Year, however, the left plot’s hue is based on the number of vacation days while the right plot’s hue is based on the average hours worked per year. 
 
 An important thing to notice in these plots is that the maximum GDP per Vacation day correlates to a country with both high vacation days and a low average hours worked. That general property is obeyed for most of the points at high values on the Y-axis. This may indicate that countries with high vacation days and lower hours work tend to have higher value per vacation day.
@@ -78,9 +78,16 @@ Our third research question wanted to explore how the Human Capital Index (HCI) 
 <p align="center">
 <img src="./images/HCI_Prod.png" width="350">
 </p>
- <figcaption align="center"> Fig 7. Productivity of engaged plotted against the Human Capital Index statistic. There is a clear strong positive correlation between the two variables. </figcaption>
+ <figcaption align="center"> Fig 8. Productivity of engaged plotted against the Human Capital Index statistic. There is a clear strong positive correlation between the two variables. </figcaption>
  
  As evidenced by the above figure, the data suggests that a the higher the HCI of a country, the more productive the workforce. 
+
+ <p align="center">
+<img src="./images/HC_across_years.png" width="550">
+</p>
+ <figcaption align="center"> Fig 8. Year over year Human Capital Index statistic for countries shown in Fig 7. </figcaption>
+
+ Some good news, as communicated by Fig 8, the human capital index is trending upwards year by year for this group of countries. We can be hopeful for a better educated and healthier future for our children. If the trend of productivity increasing with the human capital index continues, we expect to see productivity continue its rise!
 
 ## **Summary & Conclusion**
 
