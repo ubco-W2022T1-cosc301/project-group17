@@ -13,12 +13,12 @@ Lets start with a quick n' dirty exploratory analysis of the data we've gathered
 
 
 ## **Exploratory Data Analysis**
-In our explanatory data analysis (EDA), we cleaned and refined the dataset and created graphs that would be interesting for our analysis, below we will discuss the highlights of our EDAs. First of all, one of the more useful graphs we created was the correlation matrix which was essential in visualizing and helping us find positive and weak correlations between our chosen variables.
+In our explanatory data analysis (EDA), we cleaned and refined the dataset and created graphs that would be interesting for our analysis, below we will discuss the highlights of our EDAs. First of all, a crucial part of our EDA was the analysis pipeline, which consisted of removing unwanted variables and rows, and adding variables from other datasets. For instance, we added data from 'days-of-vacation-and-holidays.csv' which had data on select countries about their average annual days of vacation in non-agricultural activities which we found was a captivating statistic as it lead to us drawing conclusions that having enough time away from work is crucial for higher productivity. This will be discussed in further detail later on. Secondly, one of the more useful graphs we created was the correlation matrix which was essential in visualizing and helping us find positive and weak correlations between our chosen variables. For example: 
 
 ![](./images/diag_corr.png)
 <figcaption align="center"> Fig 1. Corellation matrix of interested variables. Redundancies removed to give this cornered matrix. </figcaption>
 
-Secondly, we calculated our own labor productivity measure by dividing ‘Output GDP’ by ‘average annual hours worked’ times ‘number of employees’. This productivity measure was labor productivity, also known as real economic output per unit of labor input. More explicitly, this new variable is a quantification of how many dollars of real output-side GDP was produced per hour worked by an engaged individual.
+Thirdly, we calculated our own labor productivity measure by dividing ‘Output GDP’ by ‘average annual hours worked’ times ‘number of employees’. This productivity measure was labor productivity, also known as real economic output per unit of labor input. More explicitly, this new variable is a quantification of how many dollars of real output-side GDP was produced per hour worked by an engaged individual. We used this calculation throughout our EDA and analysis. 
 
 ## Q1 - The Effects of Vacation days on Productivity and GDP
 
@@ -70,6 +70,17 @@ All in all, we can say with confidence that increasing the hours engaged individ
 
 <br />
 
-## Q3
+## Question 3 - How does Productivity Related to Human Capital Index
+
+Our third research question wanted to explore how the Human Capital Index (HCI) correlates with labor productivity. First of all, human capital index is a world bank measure that looks to quantify how much a country is contributing to its education and healthcare infrastructure for their working population. This means the higher a country scores on the HCI, the more educated and healthy the workforce and therefore, one can expect the more productive they will be as a result. 
+
+<p align="center">
+<img src="./images/HCI_Prod.png" width="350">
+</p>
+ <figcaption align="center"> Fig 7. Productivity of engaged plotted against the Human Capital Index statistic. There is a clear strong positive correlation between the two variables. </figcaption>
+ 
+ As evidenced by the above figure, the data suggests that a the higher the HCI of a country, the more productive the workforce. 
 
 ## **Summary & Conclusion**
+
+In summary, through our research and analysis we have found certain variables that have a significant impact on labor productivity that countries should be mindful of if they want to increase their competitiveness in world economics. The data points towards the facts that workers need adequate amount of rest, that overworking is highly detrimental to overall productivity, and that countries absolutely need to invest in healthcare and education infrastructure to support their working population. If countries and businesses follow these practices, it will breed an environment for productivity to flourish. The world is now catching on to these ideas, for example, businesses in some countries such as the United Kingdom are now starting to convert to four day working weeks which is a testament to how rest is so incredibly important for productivity. 
