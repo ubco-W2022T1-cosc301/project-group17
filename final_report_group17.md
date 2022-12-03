@@ -4,7 +4,9 @@ As a group, we were interested in exploring the welfare of workers. Specifically
 Let’s introduce some of the terms we’ll be referencing in this report. 
 - **RGDPO**, Output-side real GDP (millions 2005 USD). This uses prices for final goods exports and imports that are constant across countries an over time. Its a good measure of the output of an economy
 - **Engaged**, an engaged individual is someone who participates in the economy through the sale of their labor. For example, these can be employees of companies or independent contractors.
-- **HC** is the Human Capital Index. This is a measure of how access to healthcare, education, housing, and more contributes to the productivity of the next generation of workers. 
+- **HC** is the Human Capital Index. This is a measure of how access to healthcare, education, housing, and more contributes to the productivity of the next generation of workers.
+- **EMP** is short for employed, and is the number of employed individuals (millions)
+- **AVH** stands for 'average hours worked'. This is an average of the hours worked by engaged individuals of a population in a given calendar year. 
 
 Lets start with a quick n' dirty exploratory analysis of the data we've gathered. 
 
@@ -13,7 +15,10 @@ Lets start with a quick n' dirty exploratory analysis of the data we've gathered
 ## **Exploratory Data Analysis**
 In our explanatory data analysis (EDA), we cleaned and refined the dataset and created graphs that would be interesting for our analysis, below we will discuss the highlights of our EDAs. First of all, one of the more useful graphs we created was the correlation matrix which was essential in visualizing and helping us find positive and weak correlations between our chosen variables.
 
+![](./images/diag_corr.png)
+<figcaption align="center"> Fig 1. Corellation matrix of interested variables. Redundancies removed to give this cornered matrix. </figcaption>
 
+Secondly, we calculated our own labor productivity measure by dividing ‘Output GDP’ by ‘average annual hours worked’ times ‘number of employees’. This productivity measure was labor productivity, also known as real economic output per unit of labor input. More explicitly, this new variable is a quantification of how many dollars of real output-side GDP was produced per hour worked by an engaged individual.
 
 ## Q1 - The Effects of Vacation days on Productivity and GDP
 
