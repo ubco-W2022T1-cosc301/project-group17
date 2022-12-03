@@ -25,7 +25,7 @@ Thirdly, we calculated our own labor productivity measure by dividing ‘Output 
 We investigated the impact of the vacation days on the productivity of a country, and the recovery of a country’s GDP per vacation day after increasing vacation days. By examining the box plot below, there is a rough trend where vacation days below 30 annually are associated with a lower productivity, whereas vacation days over 30 are associated with a higher productivity. However, this trend is based on the medians of productivity, but the whiskers of many boxes cover a wide range showing large variations between countries. 
 
 ![](./images/bar_plot.png)
-
+<figcaption align="center"> Fig 2. Bar plot showing productivity versus number of vacation days. </figcaption>
 In the second figure below, two plots are shown. Both are plots of GDP per Vacation day versus Year, however, the left plot’s hue is based on the number of vacation days while the right plot’s hue is based on the average hours worked per year. 
 
 An important thing to notice in these plots is that the maximum GDP per Vacation day correlates to a country with both high vacation days and a low average hours worked. That general property is obeyed for most of the points at high values on the Y-axis. This may indicate that countries with high vacation days and lower hours work tend to have higher value per vacation day.
@@ -33,7 +33,7 @@ An important thing to notice in these plots is that the maximum GDP per Vacation
 Additionally, trends can be seen where as vacation days increase, the GDP per Vacation Day obviously drops. However, the slope after these drops is important: a positive slope after an increase indicates that the country remained prosperous afterwards, whereas a negative slope indicates that the country was not prosperous after increasing vacation days. Generally, positive slopes are seen after most increases except in the case where vacation days are already high. Overall this indicates that for countries with less than 35 vacation days per year, increasing generally wont negatively impact the country’s prosperity.
 
 ![](./images/GDP_vacation_day.png)
-
+<figcaption align="center"> Fig 3. Two plots showing the GDP per capita divided by number of vacation days versus the year where each line represents a country. Colour of the left plot indicates the number of vacation days and colour of the right plot indicates the average hours worked for that year. </figcaption>
 
 ## Question 2 - How does Productivity Related to Average Hours Worked?
 
