@@ -1,13 +1,69 @@
 ## **Introduction**
-Our intro here
+As a group, we were interested in exploring the welfare of workers. Specifically, we wanted to gain insight on what factors contributed to higher worker productivity. The main dataset we used was the Penn World Table, provided by the Groningen Growth and Development Centre from the University of Groningen. The PWT provides data on hours worked, GDP, relative output and many other variables related to economic productivity and worker welfare. We supplement this dataset with data from Huberman & Minns (2007) for information on allotted vacation days for workers.
+
+Let’s introduce some of the terms we’ll be referencing in this report. 
+- **RGDPO**, Output-side real GDP (millions 2005 USD). This uses prices for final goods exports and imports that are constant across countries an over time. Its a good measure of the output of an economy
+- **Engaged**, an engaged individual is someone who participates in the economy through the sale of their labor. For example, these can be employees of companies or independent contractors.
+- **HC** is the Human Capital Index. This is a measure of how access to healthcare, education, housing, and more contributes to the productivity of the next generation of workers. 
+
+Lets start with a quick n' dirty exploratory analysis of the data we've gathered. 
+
 
 
 ## **Exploratory Data Analysis**
-Maybe throw in a correlation matrix, a quick plot or two etc
+In our explanatory data analysis (EDA), we cleaned and refined the dataset and created graphs that would be interesting for our analysis, below we will discuss the highlights of our EDAs. First of all, one of the more useful graphs we created was the correlation matrix which was essential in visualizing and helping us find positive and weak correlations between our chosen variables.
 
-## Q1
 
-## Q2
+
+## Q1 - The Effects of Vacation days on Productivity and GDP
+
+We investigated the impact of the vacation days on the productivity of a country, and the recovery of a country’s GDP per vacation day after increasing vacation days. By examining the box plot below, there is a rough trend where vacation days below 30 annually are associated with a lower productivity, whereas vacation days over 30 are associated with a higher productivity. However, this trend is based on the medians of productivity, but the whiskers of many boxes cover a wide range showing large variations between countries. 
+
+![](./images/bar_plot.png)
+
+In the second figure below, two plots are shown. Both are plots of GDP per Vacation day versus Year, however, the left plot’s hue is based on the number of vacation days while the right plot’s hue is based on the average hours worked per year. 
+
+An important thing to notice in these plots is that the maximum GDP per Vacation day correlates to a country with both high vacation days and a low average hours worked. That general property is obeyed for most of the points at high values on the Y-axis. This may indicate that countries with high vacation days and lower hours work tend to have higher value per vacation day.
+
+Additionally, trends can be seen where as vacation days increase, the GDP per Vacation Day obviously drops. However, the slope after these drops is important: a positive slope after an increase indicates that the country remained prosperous afterwards, whereas a negative slope indicates that the country was not prosperous after increasing vacation days. Generally, positive slopes are seen after most increases except in the case where vacation days are already high. Overall this indicates that for countries with less than 35 vacation days per year, increasing generally wont negatively impact the country’s prosperity.
+
+![](./images/GDP_vacation_day.png)
+
+
+## Question 2 - How does Productivity Related to Average Hours Worked?
+
+Our Second research question wanted to explore *overworking*. We looked at trends of the average hours worked, along side our calculated quantification for productivity year over year. 
+
+<p align="center">
+<img src="./images/prod_v_hours_lame.png" width="350">
+</p>
+ <figcaption align="center"> Fig 1. Productivity of engaged plotted against the average time worked by said engaged populations in hours.  </figcaption>
+
+<br />
+
+In Fig 1. it is not immediately clear, however we observe an apparent negative relationship between the productivity of engaged vs the average time worked. We can dig deeper here, adding more information to the plot.
+
+<p align="center">
+<img src="./images/prod_v_hours_half.png" width="350">
+</p>
+ <figcaption align="center"> Fig 1. Productivity of engaged plotted against the average time worked by said engaged populations in hours. Color indicates year in which the data point refers to, where the dark grey is the 1980s and blue the 2010s. </figcaption>
+<br>
+This added context makes the trends more obvious at first glace. The trends about similar colours, hence similar years, are demonstrating a negative relationship between the amount people work and the productivity they output. Let's add one more layer to this.
+
+<br />
+
+<p align="center">
+<img src="./images/prod_v_hours.png" width="350">
+</p>
+ <figcaption align="center"> Fig 1. Productivity of engaged plotted against the average time worked by said engaged populations in hours. A linear regression was performed to fit the trends for each decade. </figcaption>
+<br />
+At this point the negative relationship between productivity and hours worked is fully exposed. We applied a linear regression to the data points, grouped by decade. This was done to isolate the productivity vs time worked from any other confounding variables that change over large periods of time. 
+
+<br />
+
+All in all, we can say with confidence that increasing the hours engaged individuals work does not lead to a higher productive output for each of those hours worked. 
+
+<br />
 
 ## Q3
 
